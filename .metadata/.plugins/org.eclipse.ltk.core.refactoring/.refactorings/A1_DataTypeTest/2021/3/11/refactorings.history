@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;stringTest.StartsWith&apos; to &apos;StartsWithTest&apos;&#x0D;&#x0A;- Original project: &apos;A1_DataTypeTest&apos;&#x0D;&#x0A;- Original element: &apos;stringTest.StartsWith&apos;&#x0D;&#x0A;- Renamed element: &apos;stringTest.StartsWithTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StartsWith&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;stringTest{StartsWith.java[StartsWith" matchStrategy="1" name="StartsWithTest" qualified="false" references="true" similarDeclarations="false" stamp="1615616653838" textual="false" version="1.0"/>
+</session>

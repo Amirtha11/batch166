@@ -1,0 +1,19 @@
+package staticTest;
+
+public class StaticTest {
+public static void main(String[] args) {
+	StaticTest S=new StaticTest();
+	System.out.println();
+	//balance();
+}
+public void credit(){
+	System.out.println("credit");
+}
+public static void debit(){
+	System.out.println("debit");
+}
+public void balance(){
+	credit();
+	debit();
+}
+}
