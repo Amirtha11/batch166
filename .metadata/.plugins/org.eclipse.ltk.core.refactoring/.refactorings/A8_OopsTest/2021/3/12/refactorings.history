@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;inheritanceTest.Rbitest&apos; to &apos;RbiTest&apos;&#x0D;&#x0A;- Original project: &apos;A8_OopsTest&apos;&#x0D;&#x0A;- Original element: &apos;inheritanceTest.Rbitest&apos;&#x0D;&#x0A;- Renamed element: &apos;inheritanceTest.RbiTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Rbitest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;inheritanceTest{Rbitest.java[Rbitest" matchStrategy="1" name="RbiTest" qualified="false" references="true" similarDeclarations="false" stamp="1616223702431" textual="false" version="1.0"/>
+</session>

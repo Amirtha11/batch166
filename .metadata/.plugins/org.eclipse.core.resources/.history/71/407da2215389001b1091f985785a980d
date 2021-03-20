@@ -1,0 +1,5 @@
+package interfaceTest1;
+
+public interface RbiTest {
+
+}
