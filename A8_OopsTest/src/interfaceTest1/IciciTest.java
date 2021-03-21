@@ -5,6 +5,7 @@ public class IciciTest implements RbiTest{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 RbiTest.loan();
+// interest =interest+5; cannot be changed
 System.out.println(interest);
 	}
 
