@@ -1,0 +1,10 @@
+package arrayListTest;
+
+public class A8_ArrayListClearTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

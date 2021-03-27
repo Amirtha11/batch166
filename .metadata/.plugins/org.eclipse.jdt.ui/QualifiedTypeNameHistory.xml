@@ -5,4 +5,16 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="modifier1.Test1"/>
 <fullyQualifiedTypeName name="staticTest.StaticTest"/>
+<fullyQualifiedTypeName name="inheritanceTest.WorldBank"/>
+<fullyQualifiedTypeName name="inheritanceTest.RbiTest"/>
+<fullyQualifiedTypeName name="interfaceTest.HdfcTest"/>
+<fullyQualifiedTypeName name="interfaceTest.RbiTest"/>
+<fullyQualifiedTypeName name="interfaceTest1.RbiTest"/>
+<fullyQualifiedTypeName name="abstractTest.SbiTest"/>
+<fullyQualifiedTypeName name="abstractTest.RbiTest"/>
+<fullyQualifiedTypeName name="polymorphismTest.ChildOverrideTest"/>
+<fullyQualifiedTypeName name="polymorphismTest.ParentOverrideTest"/>
+<fullyQualifiedTypeName name="encapsulationTest.HdfcTest"/>
+<fullyQualifiedTypeName name="encapsulationTest2.SbiTest"/>
+<fullyQualifiedTypeName name="sampleTest.Test1"/>
 </qualifiedTypeNameHistroy>
