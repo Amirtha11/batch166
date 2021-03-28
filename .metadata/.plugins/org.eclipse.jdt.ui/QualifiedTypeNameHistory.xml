@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="dataType.SysOutTest"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="modifier1.Test1"/>
 <fullyQualifiedTypeName name="staticTest.StaticTest"/>
 <fullyQualifiedTypeName name="inheritanceTest.WorldBank"/>
@@ -17,4 +16,13 @@
 <fullyQualifiedTypeName name="encapsulationTest.HdfcTest"/>
 <fullyQualifiedTypeName name="encapsulationTest2.SbiTest"/>
 <fullyQualifiedTypeName name="sampleTest.Test1"/>
+<fullyQualifiedTypeName name="interfaceTest2.InterfaceA"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

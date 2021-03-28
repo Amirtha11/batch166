@@ -35,9 +35,11 @@ public class HashSetTest {
 		System.out.println(it.next()); // error
 		*/
 		
-		while(it.hasNext()){
+	while(it.hasNext()){
 			System.out.println(it.next());
 		}
+		
+		
 		
 		
 	}
