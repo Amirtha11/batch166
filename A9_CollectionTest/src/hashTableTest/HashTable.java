@@ -12,8 +12,10 @@ table.put("username", "abc");
 table.put("password", "123");
 table.put("domain", "testing");
 table.put("company", "vcentry");
-table.put("mobile", null);
+// table.put("mobile", null); hashtable does not accept null value
+  // table.put(null, guindy); hashtable does not acccpet null key
 // table.put("username", "aaa");
+
 
 // System.out.println(table.get("username"));
 Enumeration e= table.keys();

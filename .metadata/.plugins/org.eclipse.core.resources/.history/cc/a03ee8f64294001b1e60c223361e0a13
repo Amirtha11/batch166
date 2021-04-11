@@ -1,0 +1,13 @@
+package sampleTest;
+
+public class ConstructorTest {
+public static int i;
+public static int j;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println(i);
+System.out.println(j);
+	}
+
+}

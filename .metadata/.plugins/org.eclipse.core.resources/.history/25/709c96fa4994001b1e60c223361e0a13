@@ -1,0 +1,10 @@
+package textFileTest;
+
+public class A2_FileExistsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

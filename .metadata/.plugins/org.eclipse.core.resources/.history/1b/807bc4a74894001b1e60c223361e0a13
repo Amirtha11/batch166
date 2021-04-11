@@ -1,0 +1,10 @@
+package textFileTest;
+
+public class A1_TextFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

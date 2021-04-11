@@ -1,0 +1,6 @@
+2021-04-10 12:04:26.751 INFO  LogTest:15 - Information1
+2021-04-10 12:04:26.757 ERROR LogTest:16 - Error1
+2021-04-10 12:05:19.620 INFO  LogTest:15 - Information2
+2021-04-10 12:05:19.621 ERROR LogTest:16 - Error2
+2021-04-10 12:09:58.957 INFO  LogTest:15 - Information3
+2021-04-10 12:09:58.961 ERROR LogTest:16 - Error3

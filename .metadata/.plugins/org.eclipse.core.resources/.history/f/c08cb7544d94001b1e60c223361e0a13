@@ -1,0 +1,10 @@
+package textFileTest;
+
+public class A5_BufferedAppendContentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

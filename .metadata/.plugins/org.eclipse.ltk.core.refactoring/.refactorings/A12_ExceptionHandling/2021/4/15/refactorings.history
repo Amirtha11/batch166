@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;throwableTest.TryClassTest3&apos; to &apos;TryCatchTest3&apos;&#x0D;&#x0A;- Original project: &apos;A12_ExceptionHandling&apos;&#x0D;&#x0A;- Original element: &apos;throwableTest.TryClassTest3&apos;&#x0D;&#x0A;- Renamed element: &apos;throwableTest.TryCatchTest3&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TryClassTest3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;throwableTest{TryClassTest3.java[TryClassTest3" matchStrategy="1" name="TryCatchTest3" qualified="false" references="true" similarDeclarations="false" stamp="1618040326221" textual="false" version="1.0"/>
+</session>

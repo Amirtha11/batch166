@@ -1,0 +1,24 @@
+package throwsTest;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ThrowsTest {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+getfiledata();
+
+	}
+public static void getfiledata() throws FileNotFoundException{
+	validatefile();
+	
+}
+public static void validatefile() throws FileNotFoundException{
+	File f= new File("");
+	FileInputStream fis = new FileInputStream(f);
+  }
+
+}
+

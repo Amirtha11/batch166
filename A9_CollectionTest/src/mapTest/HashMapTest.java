@@ -14,7 +14,10 @@ public class HashMapTest {
 		map.put("password", "123");
 		map.put("domain", "testing");
 		map.put("company", "vcentry");
-		map.put("mobile", null);
+		map.put("mobile", null); // hash map accepts null
+		map.put(null, guindy);
+		map.put(null, chennai); //accepts only unique null key
+		
 		// System.out.println(map.get("username"));
 		
 		// Set s= map.keySet();

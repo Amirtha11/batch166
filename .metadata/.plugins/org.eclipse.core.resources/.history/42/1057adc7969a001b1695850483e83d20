@@ -1,0 +1,18 @@
+package stringLiteraltest;
+
+public class StringBuilderBufferedTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i=1;
+i++;
+System.out.println(i);
+int j=1;
+j=j+1;
+System.out.println(j);
+
+String a="vcentry";
+System.out.println(a.concat("technologies"));
+	}
+
+}

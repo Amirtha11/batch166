@@ -1,0 +1,13 @@
+package textFileTest;
+
+import java.io.File;
+
+public class A2_FileExistsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File f= new File("C:\\Vcentry\\Workspace\\A11_FileHandlingTest\\File\\Test.txt");
+		System.out.println(f.exists());
+	}
+
+}
