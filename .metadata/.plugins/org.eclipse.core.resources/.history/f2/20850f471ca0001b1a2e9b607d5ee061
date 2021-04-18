@@ -1,0 +1,10 @@
+package actionTest;
+
+public class A19_MouseOverTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

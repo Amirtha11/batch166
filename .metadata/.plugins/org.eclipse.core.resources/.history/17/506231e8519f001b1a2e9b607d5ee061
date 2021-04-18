@@ -1,0 +1,10 @@
+package browsertest;
+
+public class A4_GetURLTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
