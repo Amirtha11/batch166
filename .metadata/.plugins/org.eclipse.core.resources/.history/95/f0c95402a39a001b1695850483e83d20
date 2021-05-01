@@ -1,8 +1,0 @@
-package excelFileTest;
-
-public class TastTest1 {
-	public static void main(String[] args) {
-		
-	}
-
-}
