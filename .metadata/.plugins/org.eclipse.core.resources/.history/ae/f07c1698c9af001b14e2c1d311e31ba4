@@ -1,0 +1,10 @@
+package alertTest;
+
+public class A48_ConfirmationAlert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package javascriptExecutor;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import utils.LoginApp;
+
+public class A51_DisableToEnableTest {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+WebDriver wd= LoginApp.loginVcentry();
+		
+		wd.get("http://djangovinoth.pythonanywhere.com/enabledOrDisabled/");
+		WebElement disabledelement= wd.findElement(By.id("dis"));
+		Thread.sleep(2000);
+		
+		// remove attribute
+		
+	JavascriptExecutor js=	(JavascriptExecutor)wd;
+	js.executeScript("argumenets[0].removeAttribute('disabled')", disabledelement);
+	
+	}
+
+}

@@ -1,0 +1,16 @@
+package actionTest;
+
+import org.openqa.selenium.WebDriver;
+
+import utils.LoginApp;
+
+public class A46_RightClickTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver wd= LoginApp.loginVcentry();
+		
+		wd.get("http://djangovinoth.pythonanywhere.com/tooltip/");
+	}
+
+}
