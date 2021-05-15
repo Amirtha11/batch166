@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;staleElementRefException&apos; to &apos;staleElementRefExceptionTest&apos;&#x0D;&#x0A;- Original project: &apos;A18_WebDriverTest&apos;&#x0D;&#x0A;- Original element: &apos;A18_WebDriverTest/src/staleElementRefException&apos;&#x0D;&#x0A;- Renamed element: &apos;A18_WebDriverTest/src/staleElementRefExceptionTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;staleElementRefException&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;staleElementRefException" name="staleElementRefExceptionTest" qualified="false" references="true" stamp="1621063773057" textual="false" version="1.0"/>
+</session>

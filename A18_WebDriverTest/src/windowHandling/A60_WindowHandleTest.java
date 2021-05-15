@@ -36,7 +36,7 @@ public class A60_WindowHandleTest {
 		System.out.println(data);
 		wd.findElement(By.id("closepopup")).click();
 		
-		wd.switchTo().window(parentId);
+		wd.switchTo().window(parentId); // to bring the focus back to parent window
 		Thread.sleep(2000);
 		wd.findElement(By.xpath("/html/body/div[11]/input")).click();
 	}

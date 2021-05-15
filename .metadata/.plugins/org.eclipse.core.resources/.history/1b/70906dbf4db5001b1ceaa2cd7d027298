@@ -1,0 +1,10 @@
+package cookieTest;
+
+public class A64_ClearCookieTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

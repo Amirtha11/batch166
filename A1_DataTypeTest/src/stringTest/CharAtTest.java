@@ -7,7 +7,7 @@ public class CharAtTest {
 String a="Vcentry";
 System.out.println(a.charAt(0));
 System.out.println(a.charAt(6));
-System.out.println(a.charAt(7));
+System.out.println(a.charAt(7)); // index out of bound
 	}
 
 }

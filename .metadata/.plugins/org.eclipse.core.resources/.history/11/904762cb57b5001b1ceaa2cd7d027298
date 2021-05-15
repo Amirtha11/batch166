@@ -1,0 +1,16 @@
+package elementTest;
+
+import org.openqa.selenium.WebDriver;
+
+import utils.LoginApp;
+
+public class A70_AutoCompleteTest {
+
+	public static void main(String[] args) {
+		
+        WebDriver wd= LoginApp.loginVcentry();
+		
+		wd.get("http://djangovinoth.pythonanywhere.com/rightclick/");
+	}
+
+}
