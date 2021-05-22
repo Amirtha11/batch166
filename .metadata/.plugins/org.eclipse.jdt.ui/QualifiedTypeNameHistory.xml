@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Throwable"/>
 <fullyQualifiedTypeName name="propertyFileTest.PropertyFileTest"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
@@ -50,14 +49,15 @@
 <fullyQualifiedTypeName name="utils.LoginApp"/>
 <fullyQualifiedTypeName name="org.seleniumhq.jetty9.util.component.Container.Listener"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.lang.Iterable"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Cookie"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

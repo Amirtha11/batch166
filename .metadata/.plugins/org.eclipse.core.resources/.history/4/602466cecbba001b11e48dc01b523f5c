@@ -1,0 +1,49 @@
+package xpathCssTest;
+
+public class A72_CssTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// class name - .
+		// id 	      - #
+		
+		// #sb_form_q
+		// .sbipane
+		
+/***********************************************************************************************/
+		// relative path - .//tagname[attribute='value']
+		// css           - tagname[attribute='value']
+		// example       - input[id='sb_form_q']
+		
+/**********************************************************************************************/
+		// contains - * , starts with - ^, ends with - $
+		
+		//contains
+		//syntax   -  tagname[attribute*='value']
+		//example  -  input[id*='sb_form_q']    -true
+		//example   -  input[id*='sb_form_']     -true
+		//example   -  input[id*='b_form_q']     -true
+		//example   -  input[id*='sb_f_q']       -false
+		//example   -  input[id*='b_form_']      -true
+ 
+		// starts with 
+		//Syntax    -  tagname[attribute^='value']
+		//example   -  input[id^='sb_form_q']      -true
+		//example   -  input[id^='sb_form_']       -true
+		//example   -  input[id^='b_form_q']       -false
+		//example   -  input[id^='sb_f_q']         -false
+		//example   -  input[id^='b_form_']        -false
+		
+		// ends with
+		//Syntax    -  tagname[attribute$='value']
+		//example   -  input[id$='sb_form_q']      -true
+		//example   -  input[id$='sb_form_']       -false
+		//example   -  input[id$='b_form_q']       -true
+		//example   -  input[id$='sb_f_q']         -false
+		//example   -  input[id$='b_form_']        -false
+		
+
+	}
+
+}

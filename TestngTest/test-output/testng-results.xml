@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+      <class name="keywordsTest.A5_PriorityTest">
+        <test-method status="PASS" signature="LoginDB()[pri:-1, instance:keywordsTest.A5_PriorityTest@32d992b2]" name="LoginDB" duration-ms="18" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDB -->
+        <test-method status="PASS" signature="Openbrowsertest()[pri:0, instance:keywordsTest.A5_PriorityTest@32d992b2]" name="Openbrowsertest" duration-ms="2" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowsertest -->
+        <test-method status="PASS" signature="Logintest()[pri:1, instance:keywordsTest.A5_PriorityTest@32d992b2]" name="Logintest" duration-ms="2" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method status="PASS" signature="a_Searchtest()[pri:2, instance:keywordsTest.A5_PriorityTest@32d992b2]" name="a_Searchtest" duration-ms="3" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_Searchtest -->
+        <test-method status="PASS" signature="b_Searchtest()[pri:2, instance:keywordsTest.A5_PriorityTest@32d992b2]" name="b_Searchtest" duration-ms="2" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_Searchtest -->
+        <test-method status="PASS" signature="Bookingtest()[pri:3, instance:keywordsTest.A5_PriorityTest@32d992b2]" name="Bookingtest" duration-ms="1" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bookingtest -->
+        <test-method status="PASS" signature="Canceltest()[pri:4, instance:keywordsTest.A5_PriorityTest@32d992b2]" name="Canceltest" duration-ms="1" started-at="2021-05-22T08:27:45Z" finished-at="2021-05-22T08:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Canceltest -->
+      </class> <!-- keywordsTest.A5_PriorityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
