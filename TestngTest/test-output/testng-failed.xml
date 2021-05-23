@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Depends on method test(failed)">
+    <classes>
+      <class name="keywordsTest.A7_DependsOnMethodTest">
+        <methods>
+          <include name="cancelTest"/>
+          <include name="loginTest"/>
+          <include name="searchTest"/>
+          <include name="bookingTest"/>
+        </methods>
+      </class> <!-- keywordsTest.A7_DependsOnMethodTest -->
+    </classes>
+  </test> <!-- Depends on method test(failed) -->
+  <test thread-count="5" name="Invocation TimeOut test(failed)">
+    <classes>
+      <class name="keywordsTest.A9_InvocationTimeOut">
+        <methods>
+          <include name="Logintest"/>
+        </methods>
+      </class> <!-- keywordsTest.A9_InvocationTimeOut -->
+    </classes>
+  </test> <!-- Invocation TimeOut test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

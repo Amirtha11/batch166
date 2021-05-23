@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Depends on method test">
+    <classes>
+      <class name="keywordsTest.A7_DependsOnMethodTest"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Invocation Count Test">
+    <classes>
+      <class name="keywordsTest.A8_InvocationCountTest"/>
+       </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Invocation TimeOut test">
+    <classes>
+      <class name="keywordsTest.A9_InvocationTimeOut"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
