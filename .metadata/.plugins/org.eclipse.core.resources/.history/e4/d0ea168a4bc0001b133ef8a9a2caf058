@@ -1,0 +1,5 @@
+package parameterTest;
+
+public @interface Parameter {
+
+}

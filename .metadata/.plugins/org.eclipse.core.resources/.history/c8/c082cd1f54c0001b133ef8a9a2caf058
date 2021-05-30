@@ -1,0 +1,29 @@
+package failedCaseTest;
+
+public class SolutionTest1 {
+
+	public class SolutionTest1 {
+		WebDriver wd;
+	String path="/Users/e11/Documents/online/workspace/batch166/TestngTest/screenshot/";
+		@Test(priority = 1)
+		public void loginTest() throws IOException {
+			try {
+			 wd=new ChromeDriver();
+	wd.manage().window().maximize();
+				wd.get("http://djangovinoth.pythonanywhere.com/login/");
+				WebElement username =wd.findElement(By.name("username"));
+				username.sendKeys("user1");
+				WebElement password =wd.findElement(By.name("passwordkkjhkhkj"));
+				password.sendKeys("Guru@12345");
+				password.submit();
+				//pass
+				File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+				FileHandler.copy(src, new File(path+"pass.jpeg"));
+				}
+	catch(Exception e) {
+			//failed	
+				File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+				FileHandler.copy(src, new File(path+"fail.jpeg"));	
+			}
+		}
+}

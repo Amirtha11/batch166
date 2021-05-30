@@ -1,0 +1,49 @@
+package failedCaseTest;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
+import org.testng.annotations.Test;
+
+public class A20_FailedCaseTest {
+	
+	WebDriver wd;
+
+	@Test
+	public void Logintest() throws IOException{
+		String path="C:\\Vcentry\\Workspace\\TestngTest\\screenshot\\";
+		
+			
+			
+			try {
+				System.setProperty("webdriver.chrome.driver", "C:\\Vcentry\\Workspace\\TestngTest\\Browser\\chromedriver.exe");
+				wd =new ChromeDriver();
+				wd.manage().window().maximize();
+		        wd.get("http://djangovinoth.pythonanywhere.com/login/");
+				WebElement username =wd.findElement(By.name("username"));
+				username.sendKeys("Amirtha");
+				WebElement password =wd.findElement(By.name("passwordkkjhkhkj"));
+				password.sendKeys("vcentry1");
+				password.submit();
+		//pass
+				File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+				FileHandler.copy(src, new File(path+"pass.jpeg"));
+				}
+				catch(Exception e) {
+				//failed
+					
+		File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+					FileHandler.copy(src, new File(path+"fail.jpeg"));	
+				}
+		
+				
+		
+	}
+}
