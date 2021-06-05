@@ -1,0 +1,39 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+public class LoginPage {
+	
+	
+		
+		// @FindBy -wd.findElement
+		
+		// @FindBy(how=How.NAME,using="username") - wd.findElement(By.name(name))
+		
+		@FindBy(how=How.XPATH,using="/html/body/main/div/div/div/div/form/fieldset/legend") 
+		public   WebElement loginTextElement;
+		
+		@FindBy(how=How.NAME,using="username") 
+		public   WebElement username;
+		
+		@FindBy(how=How.NAME,using="password") 
+		public   WebElement password;
+		
+		@FindBy(how=How.XPATH,using="/html/body/main/div/div/div/div/form/div/button") 
+		public   WebElement loginButton;
+		
+		@FindBy(how=How.LINK_TEXT,using="Sign Up Now") 
+		public   WebElement signUpLink;
+		
+		public void enterUsername(String username){
+			this.username.sendKeys(username);
+		}
+		
+		
+		
+		
+	}
+
+
