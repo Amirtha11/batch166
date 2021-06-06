@@ -1,0 +1,126 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-06T09:12:35.440Z",
+        "line": 4,
+        "name": "validate vcentry login app with valid data",
+        "description": "",
+        "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/;validate-vcentry-login-app-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser",
+            "match": {
+              "location": "testcases.LoginPageTest.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter url",
+            "match": {
+              "location": "testcases.LoginPageTest.enterUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click login link",
+            "match": {
+              "location": "testcases.LoginPageTest.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "enter username",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter password",
+            "match": {
+              "location": "testcases.LoginPageTest.enterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "don\u0027t click signup button",
+            "match": {},
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click login button",
+            "match": {
+              "location": "testcases.LoginPageTest.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "verify user welcome page",
+            "match": {
+              "location": "testcases.LoginPageTest.verifyUserWelcomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/",
+    "description": "",
+    "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/",
+    "keyword": "Feature",
+    "uri": "classpath:testcases/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
