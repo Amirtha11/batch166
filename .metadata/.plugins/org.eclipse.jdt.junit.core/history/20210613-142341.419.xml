@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (4)" project="B7_CucumberGlueAndFeature" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="runnerTest.RunnerTest" time="0.767">
+    <testsuite name="Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/" time="0.767">
+      <testcase name="Validate vcentry login app with valid data" classname="Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/" time="0.767"/>
+    </testsuite>
+  </testsuite>
+</testrun>

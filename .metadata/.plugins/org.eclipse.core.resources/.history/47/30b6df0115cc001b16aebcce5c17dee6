@@ -1,0 +1,53 @@
+package testCases;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.But;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class LoginPageTest {
+
+	// ^- staring , $- ending , *- data contains
+	
+		@Given ("open browser as {string}")
+		public void openBrowser(String browser) {
+			System.err.println("---- open browser----"+browser);
+		}
+		
+		@When ("enter url as {string}")
+		public void enterUrl(String url) {
+			System.err.println("---- enter url----"+url);
+		}
+
+		@When ("click login link")
+		public void clickLoginLink() {
+			System.err.println("---- click login link----");
+		}
+		
+		@And ("enter user name as {string}")
+		public void enterUserName(String username) {
+			System.err.println("---- enter user name----"+username);
+		}
+		
+		@And ("enter password as {string}")
+		public void enterPassword(String password) {
+			System.err.println("---- enter password----"+password);
+		}
+		
+	@But ("dont click signup button")
+		public void clickSignUpButton() {
+		System.err.println("---- dont click signup button----");
+		}
+
+		@When ("click login button")
+		public void clickLoginButton() {
+			System.err.println("---- click login button----");
+		}
+		
+		@Then ("verify user welcome page")
+		public void verifyUserWelcomePage() {
+			System.err.println("---- verify user welcome page----");
+		}
+		
+}

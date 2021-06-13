@@ -1,0 +1,544 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-13T07:15:29.705Z",
+        "line": 18,
+        "name": "Validate vcentry login app with valid data",
+        "description": "",
+        "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/;validate-vcentry-login-app-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open browser as \"\u003cBROWSER\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cBROWSER\u003e\"",
+                  "offset": 16
+                }
+              ],
+              "location": "testCases.LoginPageTest.openBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter url as \"http://djangovinoth.pythonanywhere.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://djangovinoth.pythonanywhere.com/login/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click login link",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter username as \"Amirtha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amirtha\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter password as \"vcentry1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vcentry1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "dont click signup button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickSignUpButton()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click login button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user welcome page",
+            "match": {
+              "location": "testCases.LoginPageTest.verifyUserWelcomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-13T07:15:29.815Z",
+        "line": 19,
+        "name": "Validate vcentry login app with valid data",
+        "description": "",
+        "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/;validate-vcentry-login-app-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open browser as \"\u003cBROWSER\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cBROWSER\u003e\"",
+                  "offset": 16
+                }
+              ],
+              "location": "testCases.LoginPageTest.openBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter url as \"http://djangovinoth.pythonanywhere.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://djangovinoth.pythonanywhere.com/login/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click login link",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter username as \"Amirtha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amirtha\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter password as \"vcentry1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vcentry1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "dont click signup button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickSignUpButton()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click login button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user welcome page",
+            "match": {
+              "location": "testCases.LoginPageTest.verifyUserWelcomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-13T07:15:29.842Z",
+        "line": 20,
+        "name": "Validate vcentry login app with valid data",
+        "description": "",
+        "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/;validate-vcentry-login-app-with-valid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open browser as \"\u003cBROWSER\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cBROWSER\u003e\"",
+                  "offset": 16
+                }
+              ],
+              "location": "testCases.LoginPageTest.openBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter url as \"http://djangovinoth.pythonanywhere.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://djangovinoth.pythonanywhere.com/login/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click login link",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter username as \"buyer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"buyer\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter password as \"vcentry1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vcentry1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "dont click signup button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickSignUpButton()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click login button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user welcome page",
+            "match": {
+              "location": "testCases.LoginPageTest.verifyUserWelcomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-13T07:15:29.860Z",
+        "line": 21,
+        "name": "Validate vcentry login app with valid data",
+        "description": "",
+        "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/;validate-vcentry-login-app-with-valid-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open browser as \"\u003cBROWSER\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cBROWSER\u003e\"",
+                  "offset": 16
+                }
+              ],
+              "location": "testCases.LoginPageTest.openBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter url as \"http://djangovinoth.pythonanywhere.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://djangovinoth.pythonanywhere.com/login/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click login link",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter username as \"seller\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seller\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter password as \"vcentry1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vcentry1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testCases.LoginPageTest.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "dont click signup button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickSignUpButton()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click login button",
+            "match": {
+              "location": "testCases.LoginPageTest.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user welcome page",
+            "match": {
+              "location": "testCases.LoginPageTest.verifyUserWelcomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/",
+    "description": "",
+    "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/",
+    "keyword": "Feature",
+    "uri": "classpath:testCases/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

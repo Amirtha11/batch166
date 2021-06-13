@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;login.feature&apos; to &apos;B4_CucumberScenarioDataTest/src/test/java/testCases&apos;&#x0D;&#x0A;- Original project: &apos;B3_CucumberScenarioTest&apos;&#x0D;&#x0A;- Destination element: &apos;B4_CucumberScenarioDataTest/src/test/java/testCases&apos;&#x0D;&#x0A;- Original element: &apos;login.feature&apos;" description="Copy file" destination="=B4_CucumberScenarioDataTest/src\/test\/java&lt;testCases" element1="src/test/java/testcases/login.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1623565649962" units="0" version="1.0"/>
+</session>

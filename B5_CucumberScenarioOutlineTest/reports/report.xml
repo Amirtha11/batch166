@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.391">
+<testcase classname="Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/" name="Validate vcentry login app with valid data" time="0.095">
+<system-out><![CDATA[Given open browser as "<BROWSER>"...........................................passed
+When enter url as "http://djangovinoth.pythonanywhere.com/login/"...........passed
+When click login link.......................................................passed
+And enter username as "Amirtha".............................................passed
+And enter password as "vcentry1"............................................passed
+But dont click signup button................................................passed
+When click login button.....................................................passed
+Then verify user welcome page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/" name="Validate vcentry login app with valid data 2" time="0.019">
+<system-out><![CDATA[Given open browser as "<BROWSER>"...........................................passed
+When enter url as "http://djangovinoth.pythonanywhere.com/login/"...........passed
+When click login link.......................................................passed
+And enter username as "Amirtha".............................................passed
+And enter password as "vcentry1"............................................passed
+But dont click signup button................................................passed
+When click login button.....................................................passed
+Then verify user welcome page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/" name="Validate vcentry login app with valid data 3" time="0.006">
+<system-out><![CDATA[Given open browser as "<BROWSER>"...........................................passed
+When enter url as "http://djangovinoth.pythonanywhere.com/login/"...........passed
+When click login link.......................................................passed
+And enter username as "buyer"...............................................passed
+And enter password as "vcentry1"............................................passed
+But dont click signup button................................................passed
+When click login button.....................................................passed
+Then verify user welcome page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/" name="Validate vcentry login app with valid data 4" time="0.015">
+<system-out><![CDATA[Given open browser as "<BROWSER>"...........................................passed
+When enter url as "http://djangovinoth.pythonanywhere.com/login/"...........passed
+When click login link.......................................................passed
+And enter username as "seller"..............................................passed
+And enter password as "vcentry1"............................................passed
+But dont click signup button................................................passed
+When click login button.....................................................passed
+Then verify user welcome page...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

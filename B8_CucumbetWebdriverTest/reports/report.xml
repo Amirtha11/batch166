@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.47">
+<testcase classname="Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/" name="Validate vcentry login app with valid data" time="8.064">
+<system-out><![CDATA[Given open browser as "firefox".............................................passed
+When enter url as "http://djangovinoth.pythonanywhere.com/login/"...........passed
+When click login link.......................................................passed
+And enter user name as "Amirtha"............................................passed
+And enter password as "vcentry1"............................................passed
+But dont click signup button................................................passed
+When click login button.....................................................passed
+Then verify user welcome page...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
