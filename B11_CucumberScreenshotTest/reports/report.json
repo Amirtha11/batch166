@@ -1,0 +1,178 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-20T09:13:55.424Z",
+        "line": 6,
+        "name": "Validate vcentry login app with valid data",
+        "description": "",
+        "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/;validate-vcentry-login-app-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginPageTest.tearDownA(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5511000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser as \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.LoginPageTest.openBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1618000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter url as \"http://djangovinoth.pythonanywhere.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://djangovinoth.pythonanywhere.com/login/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.LoginPageTest.enterUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 532000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click login link",
+            "match": {
+              "location": "stepDefinitions.LoginPageTest.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter user name as \"Amirtha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amirtha\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.LoginPageTest.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter password as \"vcentry1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vcentry1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.LoginPageTest.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "dont click signup button",
+            "match": {
+              "location": "stepDefinitions.LoginPageTest.clickSignUpButton()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 1147000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click login button",
+            "match": {
+              "location": "stepDefinitions.LoginPageTest.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.ArithmeticException: / by zero\r\n\tat stepDefinitions.LoginPageTest.verifyUserWelcomePage(LoginPageTest.java:75)\r\n\tat ✽.verify user welcome page(file:///C:/Vcentry/Workspace/B11_CucumberScreenshotTest/src/test/resources/features/login.feature:14)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "verify user welcome page",
+            "match": {
+              "location": "stepDefinitions.LoginPageTest.verifyUserWelcomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@validLogin"
+          },
+          {
+            "name": "@smokeTest"
+          },
+          {
+            "name": "@integration"
+          }
+        ]
+      }
+    ],
+    "name": "Validate vcentry login feature of http://djangovinoth.pythonanywhere.com/login/",
+    "description": "",
+    "id": "validate-vcentry-login-feature-of-http://djangovinoth.pythonanywhere.com/login/",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

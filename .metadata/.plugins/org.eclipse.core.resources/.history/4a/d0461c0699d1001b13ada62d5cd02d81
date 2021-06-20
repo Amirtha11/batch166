@@ -1,0 +1,63 @@
+package testCases;
+
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ProductTestCases {
+
+	WebDriver wd;
+	
+	@Given("open browser as {String}")
+		public void openbrowser(){
+			
+		}
+
+	@When("Enter url as {String}")
+	public void enterurl(){
+		
+	}
+	
+	@When("Enter user name as {String}")
+	public void enterusername(){
+		
+	}
+	
+	@And("Enter password as {String}")
+	public void enterpassword(){
+		
+	}
+	
+	@When("click login button")
+	public void clicklogin(){
+		
+	}
+	
+	@Then("verify login success")
+	public void verifylogin(){
+		
+	}
+	
+	@When("click framework form")
+	public void clickframeworkform(){
+		
+	}
+	
+	@And("click simple form")
+	public void clicksimpleform(){
+		
+	}
+	
+	@Then("validate user can place order upto 5 times")
+	public void validateplaceorder(){
+		
+	}
+	
+	@Then("logout the user")
+	public void logoutuser(){
+		
+	}
+}

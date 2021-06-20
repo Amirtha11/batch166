@@ -1,0 +1,22 @@
+package broswerStackTest;
+
+public class BroswerStackTest {
+	public static final String AUTOMATE_USERNAME = "amirthanandhini_CcwOqJ";
+	  public static final String AUTOMATE_ACCESS_KEY = "wCofK9gysfhpvgyJppff";
+	  public static final String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
+
+	public static void main(String[] args) {
+		
+		DesiredCapabilities caps = new DesiredCapabilities();
+	    caps.setCapability("os_version", "10");
+	    caps.setCapability("resolution", "1920x1080");
+	    caps.setCapability("browser", "Chrome");
+	    caps.setCapability("browser_version", "latest");
+	    caps.setCapability("os", "Windows");
+	    caps.setCapability("name", "BStack-[Java] Sample Test"); // test name
+	    caps.setCapability("build", "BStack Build Number 1"); // CI/CD job or build name
+		  
+
+	}
+
+}

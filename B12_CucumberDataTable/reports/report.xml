@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.508">
+<testcase classname="Validate product page user based" name="Validate whether user can purchase product in limited count" time="21.108">
+<system-out><![CDATA[Given open Browser as "chrome"..............................................passed
+When Enter url as "http://djangovinoth.pythonanywhere.com/login/"...........passed
+When Enter user name as "Amirtha"...........................................passed
+And Enter password as "vcentry1"............................................passed
+When Click login button.....................................................passed
+Then verify login sucess....................................................passed
+When click framework form...................................................passed
+And Click Simple form.......................................................passed
+Then validate whether user can place order upto 5 times using map...........passed
+Then logout the user........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

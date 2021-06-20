@@ -1,0 +1,26 @@
+Feature: Validate product page user  based
+@product
+Scenario: Validate whether user can purchase product in limited count 
+
+Given open browser as "Chrome"
+When Enter url as "http://djangovinoth.pythonanywhere.com/login/"
+When Enter user name as "Amirtha"
+And Enter password as "vcentry1"
+When click login button
+Then verify login success
+When click framework form
+And click simple form
+Then validate user can place order upto 5 times as <PRODUCT> <MOBILE> <EMAIL> <PRODCAT> <QTY> <PURCHASER>
+|product a |1111   |maila@mail.com|electrical|5  |purchaser a|
+|product b |2222   |mailb@mail.com|electrical|10   |purchaser b|
+|product c |3333   |mailc@mail.com|electrical|15  |purchaser c|
+|product d |4444   |maild@mail.com|electrical|20  |purchaser d|
+|product e |5555   |maile@mail.com|electrical|25  |purchaser e|
+
+Then logout the user
+
+
+
+
+Examples:
+|BROWSER |URL |USERNAME |PASSWORD |PRODUCT   |MOBILE |EMAIL         |PRODCAT   |QTY |PURCHASER  |

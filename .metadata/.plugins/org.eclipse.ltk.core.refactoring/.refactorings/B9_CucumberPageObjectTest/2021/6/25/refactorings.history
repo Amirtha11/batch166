@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;loginPage&apos; to &apos;pages&apos;&#x0D;&#x0A;- Original project: &apos;B9_CucumberPageObjectTest&apos;&#x0D;&#x0A;- Original element: &apos;B9_CucumberPageObjectTest/src/test/java/loginPage&apos;&#x0D;&#x0A;- Renamed element: &apos;B9_CucumberPageObjectTest/src/test/java/pages&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;loginPage&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java&lt;loginPage" name="pages" qualified="false" references="true" stamp="1624083761498" textual="false" version="1.0"/>
+</session>

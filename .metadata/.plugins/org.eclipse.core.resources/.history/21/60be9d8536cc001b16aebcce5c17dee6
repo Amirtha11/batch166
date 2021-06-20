@@ -1,0 +1,14 @@
+package learningTest;
+
+public class ReverseOfString {
+	
+	public static void main(String[] args) {
+		
+		StringBuilder sb= new StringBuilder("banana");
+		sb.reverse();
+		System.out.println(sb);
+		
+	}
+	
+
+}

@@ -7,6 +7,11 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="B8_CucumbetWebdriverTest"/>
+			<item value="B7_CucumberGlueAndFeature"/>
+			<item value="B6_CucumberTagTest"/>
+			<item value="B5_CucumberScenarioOutlineTest"/>
+			<item value="B4_CucumberScenarioDataTest"/>
 			<item value="B3_CucumberScenarioTest"/>
 			<item value="B2_CucumberSetup"/>
 		</list>
@@ -47,6 +52,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Vcentry\Workspace\B4_CucumberScenarioDataTest\src\test\java\testCases\login.feature"/>
+			<item value="C:\Vcentry\Workspace\B3_CucumberScenarioTest\src\test\java\testcases\login.feature"/>
 			<item value="C:\Vcentry\Workspace\B2_CucumberSetup\src\test\java\testcases\login.feature"/>
 			<item value="C:\Vcentry\Workspace\PageObjectWebdriverTest\src\testCases\LoginPageTest.java"/>
 		</list>
