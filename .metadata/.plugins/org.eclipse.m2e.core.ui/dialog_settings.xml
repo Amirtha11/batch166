@@ -7,6 +7,12 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JenkinGitTest"/>
+			<item value="BroswerStackTest"/>
+			<item value="B12_CucumberDataTable"/>
+			<item value="B11_CucumberScreenshotTest"/>
+			<item value="B10_CucumberHooksTest"/>
+			<item value="B9_CucumberPageObjectTest"/>
 			<item value="B8_CucumbetWebdriverTest"/>
 			<item value="B7_CucumberGlueAndFeature"/>
 			<item value="B6_CucumberTagTest"/>
@@ -52,6 +58,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Vcentry\Workspace\B12_CucumberDataTable\src\test\java\testCases2\RunnerTest.java"/>
+			<item value="C:\Vcentry\Workspace\B10_CucumberHooksTest\src\test\java\testCases\Background.java"/>
+			<item value="C:\Vcentry\Workspace\B10_CucumberHooksTest\src\test\java\testCases\RunnerTest.java"/>
+			<item value="C:\Vcentry\Workspace\B8_CucumbetWebdriverTest\src\test\java\runnerTest\RunnerTest.java"/>
 			<item value="C:\Vcentry\Workspace\B4_CucumberScenarioDataTest\src\test\java\testCases\login.feature"/>
 			<item value="C:\Vcentry\Workspace\B3_CucumberScenarioTest\src\test\java\testcases\login.feature"/>
 			<item value="C:\Vcentry\Workspace\B2_CucumberSetup\src\test\java\testcases\login.feature"/>

@@ -23,6 +23,9 @@ public class BroswerStackTest {
 	    caps.setCapability("os", "Windows");
 	    caps.setCapability("name", "mac test1"); // test name
 	    caps.setCapability("build", "BStack batch number 166"); // CI/CD job or build name
+	    caps.setCapability("browserstack.debug", "true");
+	    
+	    caps.setCapability("browserstack.local", "true");
 
 	   
 

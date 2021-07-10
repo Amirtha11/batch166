@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Browser stack Suite]" parallel="tests">
+  <test thread-count="5" name="mac(failed)" parallel="tests">
+    <parameter name="browser" value="mac"/>
+    <classes>
+      <class name="broswerStackTest.ParallelTest">
+        <methods>
+          <include name="verifyParallelTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- broswerStackTest.ParallelTest -->
+    </classes>
+  </test> <!-- mac(failed) -->
+  <test thread-count="5" name="xp(failed)" parallel="tests">
+    <parameter name="browser" value="mac"/>
+    <classes>
+      <class name="broswerStackTest.ParallelTest">
+        <methods>
+          <include name="verifyParallelTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- broswerStackTest.ParallelTest -->
+    </classes>
+  </test> <!-- xp(failed) -->
+  <test thread-count="5" name="iphone(failed)" parallel="tests">
+    <parameter name="browser" value="iphone"/>
+    <classes>
+      <class name="broswerStackTest.ParallelTest">
+        <methods>
+          <include name="verifyParallelTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- broswerStackTest.ParallelTest -->
+    </classes>
+  </test> <!-- iphone(failed) -->
+</suite> <!-- Failed suite [Browser stack Suite] -->
