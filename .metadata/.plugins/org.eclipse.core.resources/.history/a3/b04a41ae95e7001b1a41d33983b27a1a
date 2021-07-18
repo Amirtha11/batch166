@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Built-By: amirthan
+Class-Path: outjar/selenium-java-3.141.59.jar outjar/selenium-api-3.14
+ 1.59.jar outjar/selenium-chrome-driver-3.141.59.jar outjar/selenium-e
+ dge-driver-3.141.59.jar outjar/selenium-firefox-driver-3.141.59.jar o
+ utjar/selenium-ie-driver-3.141.59.jar outjar/selenium-opera-driver-3.
+ 141.59.jar outjar/selenium-remote-driver-3.141.59.jar outjar/selenium
+ -safari-driver-3.141.59.jar outjar/selenium-support-3.141.59.jar outj
+ ar/byte-buddy-1.8.15.jar outjar/commons-exec-1.3.jar outjar/guava-25.
+ 0-jre.jar outjar/jsr305-1.3.9.jar outjar/checker-compat-qual-2.0.0.ja
+ r outjar/error_prone_annotations-2.1.3.jar outjar/j2objc-annotations-
+ 1.1.jar outjar/animal-sniffer-annotations-1.14.jar outjar/okhttp-3.11
+ .0.jar outjar/okio-1.14.0.jar outjar/webdrivermanager-4.4.3.jar outja
+ r/slf4j-api-1.7.30.jar outjar/commons-io-2.8.0.jar outjar/gson-2.8.6.
+ jar outjar/commons-lang3-3.12.0.jar outjar/httpclient5-5.0.3.jar outj
+ ar/httpcore5-5.0.2.jar outjar/httpcore5-h2-5.0.2.jar outjar/commons-c
+ odec-1.13.jar outjar/jarchivelib-1.1.0.jar outjar/commons-compress-1.
+ 20.jar outjar/jsoup-1.13.1.jar
+Build-Jdk: 1.8.0_291
+Created-By: Maven Integration for Eclipse
+Main-Class: theMainClass
+

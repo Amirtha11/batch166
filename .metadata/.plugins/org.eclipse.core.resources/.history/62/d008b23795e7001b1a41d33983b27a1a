@@ -1,0 +1,27 @@
+package com.vcentry.lab.initializer;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+/*
+ * 
+ * 
+ * this is used for initialize env, locator, webdriver, excel,reports
+ */
+
+
+
+
+public class Initializer {
+	
+	public static void initialize() throws IOException{
+		
+		File f= new File(System.getProperty("user.dir")+File.separator+"src"+File.separator+"test"+File.separator+"resources"+File.separator+"com"+File.separator+"vcentry"+File.separator+"lab"+File.separator+"config"+File.separator+env.properties"));
+		FileInputStream fis = new FileInputStream(f);
+		Properties prop = new Properties();
+		prop.load(fis);
+	}
+
+}
